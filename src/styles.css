@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  .features-section {
+    background-color: #e9ecef;
+    padding: 60px 0;
+  }
+  .team-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+  }
+  .footer a {
+    color: #fff;
+  }
+  .footer a:hover {
+    color: #ffc107;
+  }

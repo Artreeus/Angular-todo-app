@@ -101,116 +101,32 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td style="text-align: center;">1</td>
-                            <td>
-                                <div class="row">
-                                    <div class="col-1">
-                                        <input type="checkbox">
+                        @for (item of taskList; track 'itemId') {
+                            <tr>
+                                <td style="text-align: center;">1</td>
+                                <td>
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="col-6">
+                                            Daily Exterise Routine
+                                        </div>
+                                        <div class="col-4 text-end ">
+                                            <i class="fa fa-close text-secondary px-3 text-danger "></i>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        Daily Exterise Routine
-                                    </div>
-                                    <div class="col-4 text-end ">
-                                        <i class="fa fa-close text-secondary px-3 text-danger "></i>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>12/05/2023</td>
-                            <td class="text-center">
-                                <button class="btn btn-warning btn-sm rounded-btn">Health</button>
-                                <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
-                                <button class="btn btn-success btn-sm rounded-btn">default</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">2</td>
-                            <td>
-                                <div class="row">
-                                    <div class="col-1">
-                                        <input type="checkbox">
-                                    </div>
-                                    <div class="col-6">
-                                        Daily Exterise Routine
-                                    </div>
-                                    <div class="col-4 text-end ">
-                                        <i class="fa fa-close text-secondary px-3 text-danger "></i>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>12/05/2023</td>
-                            <td class="text-center">
-                                <button class="btn btn-warning btn-sm rounded-btn">Health</button>
-                                <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
-                                <button class="btn btn-success btn-sm rounded-btn">default</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">3</td>
-                            <td>
-                                <div class="row">
-                                    <div class="col-1">
-                                        <input type="checkbox">
-                                    </div>
-                                    <div class="col-6">
-                                        Daily Exterise Routine
-                                    </div>
-                                    <div class="col-4 text-end ">
-                                        <i class="fa fa-close text-secondary px-3 text-danger "></i>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>12/05/2023</td>
-                            <td class="text-center">
-                                <button class="btn btn-warning btn-sm rounded-btn">Health</button>
-                                <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
-                                <button class="btn btn-success btn-sm rounded-btn">default</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">4</td>
-                            <td>
-                                <div class="row">
-                                    <div class="col-1">
-                                        <input type="checkbox">
-                                    </div>
-                                    <div class="col-6">
-                                        Daily Exterise Routine
-                                    </div>
-                                    <div class="col-4 text-end ">
-                                        <i class="fa fa-close text-secondary px-3 text-danger "></i>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>12/05/2023</td>
-                            <td class="text-center">
-                                <button class="btn btn-warning btn-sm rounded-btn">Health</button>
-                                <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
-                                <button class="btn btn-success btn-sm rounded-btn">default</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">5</td>
-                            <td>
-                                <div class="row">
-                                    <div class="col-1">
-                                        <input type="checkbox">
-                                    </div>
-                                    <div class="col-6">
-                                        Daily Exterise Routine
-                                    </div>
-                                    <div class="col-4 text-end ">
-                                        <i class="fa fa-close text-secondary px-3 text-danger "></i>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>12/05/2023</td>
-                            <td class="text-center">
-                                <button class="btn btn-warning btn-sm rounded-btn">Health</button>
-                                <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
-                                <button class="btn btn-success btn-sm rounded-btn">default</button>
-                            </td>
-                        </tr>
+                                </td>
+                                <td>12/05/2023</td>
+                                <td class="text-center">
+                                    <button class="btn btn-warning btn-sm rounded-btn">Health</button>
+                                    <button class="btn btn-secondary btn-sm rounded-btn">fitness</button>
+                                    <button class="btn btn-success btn-sm rounded-btn">default</button>
+                                </td>
+                            </tr>
+                        }
+                        
+                        
                     </tbody>
                 </table>
             </div>
