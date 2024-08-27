@@ -5,15 +5,25 @@ import { RegisterComponent } from './components/register/register.component';
 
 export const routes: Routes = [
     {
-        path:'todo-comp',
-        component:TodoComponent
+        path: '',
+        redirectTo: '/todo-comp',
+        pathMatch: 'full'
     },
     {
-        path:'about',
-        component:AboutComponent
+        path: 'todo-comp',
+        component: TodoComponent
     },
     {
-        path:'register',
-        component:RegisterComponent
+        path: 'about',
+        component: AboutComponent
+    },
+    {
+        path: 'register',
+        component: RegisterComponent
+    },
+    // Optional: Add a wildcard route for handling 404 errors
+    {
+        path: '**',
+        redirectTo: '/todo-comp'
     }
 ];
